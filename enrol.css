@@ -1,0 +1,528 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #5e5858;
+  scroll-behavior: smooth;
+}
+.page1 {
+  width: 100%;
+  height: 110vh;
+
+  background-color: white;
+}
+.nav1 ul {
+  display: flex;
+  margin-inline: 10%;
+  list-style-type: none;
+}
+.nav1 nav ul li {
+  margin-inline: 12px;
+  margin-top: 2%;
+}
+
+.nav1 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+}
+.nav1 {
+  height: 15vh;
+  display: flex;
+  margin-top: -25vh;
+  z-index: 1231231234123;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+}
+.nav1 nav {
+  padding-inline: 3%;
+  flex-grow: 1;
+  margin-top: 2%;
+}
+.nav1 nav {
+  display: flex;
+}
+.thumb::after {
+  position: absolute;
+  width: 150px;
+  color: white;
+  margin-top: -4%;
+  height: 40px;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  border-radius: 20px;
+  content: "Enroll now";
+
+  background-color: #e7332b;
+}
+.thumb {
+  width: 70px;
+  padding: 8px;
+  border-radius: 250px;
+  background-color: #e7332b;
+}
+.thumb img {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* pg1 content */
+
+.content1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  width: 90%;
+}
+
+.girl {
+  width: 80%;
+}
+
+.content1f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pg1img1 {
+  width: 100%;
+}
+.pg1img2 {
+  width: 140%;
+}
+
+.content1 p {
+  color: #e7332b;
+  margin-top: 1%;
+  font-size: 18px;
+
+  margin-bottom: 7%;
+}
+.content1 h3 {
+  text-align: center;
+}
+.content1 h1 {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 10%;
+}
+.content1 a {
+  background-color: #e7332b;
+  border: none;
+  text-decoration: none;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 5%;
+  font-size: 17px;
+  width: 150px;
+  border-radius: 20px;
+}
+.content1 h1 {
+  text-align: center;
+}
+.content1f {
+  flex-direction: column;
+}
+.pg1line {
+  display: flex;
+  justify-content: center;
+}
+.pg1line img {
+  width: 20%;
+}
+@media (max-width: 850px) {
+  .content1 {
+    display: block;
+  }
+  .pg1img2 {
+    display: none;
+  }
+}
+/* pg1 content end */
+/*  page2 */
+.page2 {
+  width: 90%;
+  height: 100vh;
+  margin-inline: 5%;
+  background-color: white;
+}
+.freeimg1 img {
+  position: absolute;
+  width: 4%;
+  margin-left: -22%;
+  margin-top: 3%;
+}
+.content2 {
+  display: flex;
+  align-items: center;
+}
+.content2 .pp1 {
+  font-size: 25px;
+  color: black;
+  font-weight: 900px;
+}
+.content2 .pp2 {
+  font-size: 25px;
+}
+.content2 .pp2 a {
+  color: rgb(24, 150, 24);
+}
+.freeimg2 img {
+  width: 7%;
+  margin-left: 2%;
+  z-index: 1;
+  position: absolute;
+}
+.content201 {
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+}
+.content201 h3 {
+  font-size: 25px;
+  font-weight: 400;
+
+  color: #e7332b;
+}
+.content201 p {
+  font-size: 40px;
+  width: 80%;
+  font-weight: bold;
+  color: black;
+}
+.content201 div img {
+  width: 100%;
+}
+.section3w {
+  width: 10%;
+  margin-right: 30%;
+  height: 10vh;
+}
+.section3w img {
+  position: absolute;
+  width: 10%;
+  margin-left: -25%;
+  height: 13vh;
+}
+/*  page2 ends */
+/*  cool cards section */
+.cool {
+  width: 90%;
+  margin-inline: 5%;
+  height: 180vh;
+  background-color: white;
+}
+.cool1 {
+  width: 350px;
+  height: 70vh;
+  border-radius: 10%;
+  background-color: #e7332b;
+  transition: margin-top 0.5s;
+}
+.cool1:hover {
+  margin-top: -2%;
+}
+.cool {
+  display: flex;
+  gap: 3%;
+  flex-wrap: wrap;
+}
+
+.cool1 img {
+  width: 30%;
+  position: relative;
+  margin-left: 70%;
+}
+.cool1 h1 {
+  z-index: 12;
+  color: white;
+  position: absolute;
+  font-size: 60px;
+  margin-left: 30px;
+  margin-top: -60px;
+  font-weight: bold;
+}
+.cool1 h2 {
+  position: absolute;
+  font-size: 33px;
+  margin-top: 60px;
+  color: white;
+  margin-left: 30px;
+  width: 5%;
+}
+.cool1 p {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 150px;
+}
+/*  cool cards section ends */
+/* page3 */
+.page3 {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #e7332b;
+}
+.text5 {
+  width: 80%;
+}
+.top5 {
+  margin-top: 5%;
+}
+.page3 p {
+  color: white;
+}
+.section5img {
+  margin-right: 3%;
+}
+.page3 {
+  padding: 5%;
+}
+.section5img img {
+  width: 105%;
+}
+.page3 h2 {
+  color: white;
+  font-size: 40px;
+}
+.pg5btn {
+  display: flex;
+}
+.pg5btn .anch {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  margin-block: 20%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+
+  width: 150px;
+}
+.pg5btn a {
+  color: #e7332b;
+  margin-block: 5%;
+  text-decoration: none;
+}
+.small5 img {
+  width: 30%;
+  padding-inline: 3%;
+}
+.small5 {
+  padding: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  cursor: not-allowed;
+  border-radius: 40px;
+  border: 2px solid white;
+}
+.bbb1 {
+  margin-top: 25%;
+  margin-left: 5%;
+}
+.nn1 {
+  margin-top: 20%;
+}
+.sec5img {
+  position: absolute;
+  width: 10%;
+  margin-top: -2%;
+  margin-left: -50%;
+}
+.sec5img img {
+  width: 50%;
+}
+.sec5img2 {
+  position: absolute;
+  width: 10%;
+  margin-top: 70vh;
+  margin-left: -90%;
+}
+.sec5img2 img {
+  width: 80%;
+  height: 10vh;
+}
+
+/* page3 ends */
+/* page4  */
+
+.page4 {
+  width: 100%;
+  background-color: #fff8f8;
+  height: 180vh;
+  padding: 5%;
+}
+.page4 .head h3 {
+  color: #e7332b;
+  font-size: 25px;
+}
+.page4 .head p {
+  font-size: 35px;
+  width: 50%;
+  font-weight: bolder;
+  color: black;
+}
+.page4 .svg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page4 .svg img {
+  width: 10%;
+}
+/*  cards sections */
+.father-card {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cards img {
+  width: 15%;
+  padding-block: 7%;
+}
+.cards:hover {
+  margin-top: -2%;
+  transition: margin-top 0.9s;
+}
+.cards {
+  width: 350px;
+  border-radius: 40px;
+  height: 50vh;
+  padding-inline: 3%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  background-color: white;
+  box-shadow: 0px 8px 8px 0px #faeeee;
+}
+.cardbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.cardbutton a {
+  padding: 15px;
+  margin-top: 5%;
+  font-size: 20px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: #e7332b;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.page4 hr {
+  margin-top: 10%;
+}
+/*  cards sections end */
+/* page4 ends */
+/* page5 */
+.page5 {
+  width: 100%;
+  background-color: #fff8f8;
+  height: 180vh;
+  padding: 5%;
+}
+.page5 .head5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  align-items: center;
+}
+.page5 .head5 h2 {
+  color: #e7332b;
+  font-size: 30px;
+}
+.page5 .head5 p {
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+}
+.page5 table {
+  border-collapse: collapse;
+  width: 90%;
+}
+.page5 td {
+  border: 1px solid black;
+  height: 15vh;
+  gap: 5%;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  padding: 3%;
+}
+#ball {
+  margin-bottom: 3%;
+  display: none;
+}
+#ballx {
+  margin-bottom: 3%;
+  display: none;
+}
+#ballss {
+  margin-bottom: 3%;
+  display: none;
+}
+#ballsss {
+  margin-bottom: 3%;
+  display: none;
+}
+#ballsp {
+  margin-bottom: 3%;
+  display: none;
+}
+
+.page5 tr td div p {
+  font-size: 20px;
+  width: max-content;
+  font-weight: 500;
+  color: black;
+}
+.cholder {
+  width: 90%;
+  transition: 1s;
+}
+.cholder:active {
+  rotate: 180deg;
+}
+#cross {
+  content: "";
+  width: 15px;
+  margin-left: 100%;
+  height: 3px;
+
+  display: block;
+  background-color: black;
+}
+#cross::after {
+  content: "";
+
+  height: 4px;
+  transform: rotate(90deg);
+  display: block;
+  background-color: black;
+}

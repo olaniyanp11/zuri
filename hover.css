@@ -1,0 +1,9 @@
+.pg1btn :nth-child(2):hover {
+  background-color: #e7332b;
+  color: white;
+}
+.pg1btn :nth-child(1):hover {
+  background-color: white;
+  border: 1px solid #e7332b;
+  color: #e7332b;
+}

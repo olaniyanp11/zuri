@@ -526,3 +526,30 @@
   display: block;
   background-color: black;
 }
+.page5last {
+  display: flex;
+  justify-content: center;
+}
+.page5last {
+  gap: 5%;
+
+  margin-block: 10%;
+}
+.page5lasta {
+  background-color: #e7332b;
+  padding: 10px;
+  color: white;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.page5lasta i {
+  color: white;
+  margin-right: 10px;
+}
+.page6 {
+  width: 100%;
+  height: 100vh;
+}

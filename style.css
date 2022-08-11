@@ -53,6 +53,7 @@
 .pg1btn {
   display: flex;
   justify-content: center;
+
   gap: 30px;
 }
 @media (max-width: 550px) {

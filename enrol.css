@@ -663,18 +663,21 @@ li {
   margin-left: -40%;
   margin-top: 30%;
 }
-.pg7box h3,
-h2 {
+.bigbox h2 {
   color: white;
   margin-top: 5%;
   font-size: 29px;
 }
-.pg7box h3,
-a,
-h2 {
+.bigbox a {
   color: white;
 }
-.page7 .pg7box h1 {
+.bigboys h3 {
+  color: white;
+}
+.bigbox p {
+  color: white;
+}
+.bigbox h1 {
   color: white;
   font-size: 65px;
   text-align: center;

@@ -141,14 +141,7 @@
 .pg1line img {
   width: 20%;
 }
-@media (max-width: 850px) {
-  .content1 {
-    display: block;
-  }
-  .pg1img2 {
-    display: none;
-  }
-}
+
 /* pg1 content end */
 /*  page2 */
 .page2 {

@@ -665,23 +665,27 @@ li {
 }
 .bigbox h2 {
   color: white;
+}
+.pg7box h3 {
+  color: white;
   margin-top: 5%;
   font-size: 29px;
 }
-.bigbox a {
+.bigboys a {
   color: white;
 }
 .bigboys h3 {
   color: white;
 }
-.bigbox p {
-  color: white;
-}
-.bigbox h1 {
+
+.pg7box h1 {
   color: white;
   font-size: 65px;
   text-align: center;
   width: 70%;
+}
+.bigbox p {
+  color: white;
 }
 .pg7box a {
   background-color: white;

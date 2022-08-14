@@ -409,6 +409,7 @@
   width: 350px;
   border-radius: 40px;
   height: 50vh;
+  color: #5e5858;
   padding-inline: 3%;
   justify-content: center;
   align-items: center;
@@ -547,6 +548,9 @@
   color: white;
   margin-right: 10px;
 }
+.father-card .cards h3 {
+  color: black;
+}
 /* heading 6 */
 .page6 {
   width: 100%;
@@ -576,25 +580,129 @@
   gap: 5%;
   justify-content: center;
 }
-.bigboys span {
+.bigbox {
   width: 40%;
   height: 100vh;
   margin-top: 5%;
+  color: white;
   border-radius: 10%;
   background-color: black;
+  padding-block: 5%;
+  padding-left: 3%;
+}
+.bigboys span h1 {
+  font-size: 40px;
+  color: white;
+}
+.page7 .oy p,
+a,
+h3,
+h2 {
+}
+.oy ul,
+li {
+  color: white;
+  margin-block: 3%;
+}
+.bigboys span h3 {
+  font-size: 30px;
 }
 .boy {
   width: 65%;
+  color: white;
 }
-.boys img {
+.time {
   position: absolute;
   width: 20%;
   margin-top: 60vh;
   margin-left: 20%;
 }
-.boy img {
-  position: absolute;
+.hour {
   width: 10%;
-  margin-top: 70vh;
-  margin-left: 25%;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 20%;
+}
+.verve {
+  display: flex;
+}
+
+.verve .imgg {
+  width: 0%;
+}
+.page7 {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff8f8;
+}
+.pg7box {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  margin-inline: 5%;
+  height: 70vh;
+
+  background-color: #e7332b;
+}
+.pg7box img {
+  position: absolute;
+}
+.round {
+  width: 10%;
+  margin-left: -40%;
+  margin-top: 5%;
+}
+.curve {
+  width: 150px;
+  margin-left: 40%;
+}
+.curve2 {
+  width: 120px;
+  margin-left: -40%;
+  margin-top: 30%;
+}
+.pg7box h3,
+h2 {
+  color: white;
+  margin-top: 5%;
+  font-size: 29px;
+}
+.pg7box h3,
+a,
+h2 {
+  color: white;
+}
+.page7 .pg7box h1 {
+  color: white;
+  font-size: 65px;
+  text-align: center;
+  width: 70%;
+}
+.pg7box a {
+  background-color: white;
+  font-size: 20px;
+  margin-top: 5%;
+  color: #e7332b;
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+}
+.page7 footer {
+  width: 100%;
+  display: flex;
+  margin-top: 10%;
+  gap: 60%;
+}
+.page7 footer .icons7 img {
+  background-color: #e7332b;
+  width: 20%;
+  clip-path: circle(50%);
+}
+.icons7 {
+  display: flex;
+  gap: 10%;
 }

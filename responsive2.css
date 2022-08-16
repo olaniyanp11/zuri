@@ -96,6 +96,7 @@
   .nav1 nav .llo img {
     width: 70%;
   }
+
   .pg7box h1 {
     font-size: 40px;
   }
@@ -192,6 +193,10 @@
   .page7 footer {
     display: block;
   }
+  .thumb {
+    margin-right: 20%;
+  }
+
   footer .bass {
     width: 30%;
   }

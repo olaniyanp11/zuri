@@ -102,7 +102,7 @@
 }
 @media (max-width: 650px) {
   .nav1 nav {
-    gap: 10%;
+    gap: 0%;
   }
 
   .thumb {
@@ -114,6 +114,16 @@
 
     margin-left: 4%;
   }
+  .pg5btn {
+    display: block;
+  }
+
+  .nav1 nav .llo img {
+    width: 60%;
+  }
+  .nav1 nav {
+    margin-top: 0%;
+  }
 }
 @media (max-width: 500px) {
   .nav1 nav {
@@ -124,6 +134,10 @@
   }
   .page5 tr {
     padding-block: 20%;
+  }
+
+  .nav1 nav .llo img {
+    width: 50%;
   }
   table {
     width: 70%;
@@ -164,6 +178,7 @@
   .thumb {
     width: 40px;
     border-radius: 800px;
+    margin-left: -10%;
   }
   .thumb img {
     width: 60%;
@@ -178,6 +193,9 @@
   .nav1 nav .llo img {
     width: 50%;
   }
+  .nav1 nav .llo {
+    width: 100%;
+  }
   .thumb::after {
     margin-top: -7%;
     width: 70px;
@@ -191,6 +209,9 @@
   }
   tr {
     width: 60%;
+  }
+  .thumb {
+    margin-left: -30%;
   }
   .page5 td {
     padding: 5%;

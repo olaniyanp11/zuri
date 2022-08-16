@@ -59,7 +59,7 @@
     margin-left: 3%;
   }
   .page7 footer {
-    gap: 50%;
+    gap: 0%;
   }
   .pg1img2 {
     display: none;
@@ -107,6 +107,9 @@
   .nav1 nav {
     gap: 0%;
   }
+  .thumb {
+    margin-left: -5%;
+  }
 
   .thumb {
     width: 60px;
@@ -133,7 +136,10 @@
     gap: 0%;
   }
   .page7 footer {
-    gap: 30%;
+    display: block;
+  }
+  .page7 footer .icons7 img {
+    width: 10%;
   }
   .page5 tr td div p {
     width: 100%;
@@ -158,7 +164,9 @@
   .page5 td p {
     width: 50%;
   }
-
+  .thumb {
+    margin-left: -5%;
+  }
   .thumb {
     width: 60px;
     border-radius: 800px;
@@ -183,6 +191,9 @@
   }
   .page7 footer {
     display: block;
+  }
+  footer .bass {
+    width: 30%;
   }
   .thumb {
     width: 40px;

@@ -693,7 +693,6 @@ li {
   width: 100%;
   display: flex;
   margin-top: 10%;
-  gap: 60%;
 }
 .page7 footer .icons7 img {
   background-color: #e7332b;
@@ -703,6 +702,9 @@ li {
 .icons7 {
   display: flex;
   gap: 10%;
+}
+footer .bass {
+  width: 60%;
 }
 .command {
   position: absolute;

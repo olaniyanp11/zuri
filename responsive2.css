@@ -58,6 +58,9 @@
     margin-top: -6%;
     margin-left: 3%;
   }
+  .page7 footer {
+    gap: 50%;
+  }
   .pg1img2 {
     display: none;
   }
@@ -129,6 +132,9 @@
   .nav1 nav {
     gap: 0%;
   }
+  .page7 footer {
+    gap: 30%;
+  }
   .page5 tr td div p {
     width: 100%;
   }
@@ -174,6 +180,9 @@
 @media (max-width: 400px) {
   .nav1 nav {
     gap: 0%;
+  }
+  .page7 footer {
+    display: block;
   }
   .thumb {
     width: 40px;

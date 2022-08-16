@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   color: #5e5858;
+
   scroll-behavior: smooth;
 }
 .page1 {
@@ -33,6 +34,7 @@
   margin-top: -25vh;
   z-index: 1231231234123;
   width: 100%;
+  overflow: hidden;
   align-items: center;
   background-color: white;
   position: fixed;
